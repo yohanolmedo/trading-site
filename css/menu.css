@@ -1,0 +1,41 @@
+header label {
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+.menu {
+  width: 100%;
+  background-color:darkslategray;
+  opacity:0.85;
+}
+
+.menu ul {
+  margin: 0px;
+  width: 100%;
+  display:flex;	
+  padding: 0px;
+  list-style: none;
+}
+
+.menu li {
+  width: 100%;
+  text-align: center;
+  opacity: 0.9;
+  border-right: 1px solid #fff;
+}
+
+.menu li:hover {
+  background: rgba(0,0,0,0.6);
+}
+
+.menu li a {
+  display: block;
+  padding: 8px 20px;
+  text-decoration: none;
+  color: whitesmoke;
+}	
+
+

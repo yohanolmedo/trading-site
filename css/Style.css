@@ -1,0 +1,54 @@
+@import url(menu.css);
+
+body {
+  background-image: url(1.jpeg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+.contenedor {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;	
+  margin-bottom: 23px;
+  margin-left: 35%;
+}
+
+.img-logo {
+  width: 30%;
+  text-decoration-skip: edges;
+  background-color:darkslategray;
+  opacity: 0.7
+}
+
+main {
+  background-color:antiquewhite;
+  color:darkkhaki;
+  margin-top: 12px;
+  width: 70%;
+  box-sizing: border-box;
+  float: left;
+}
+
+aside {
+  width: 30%;
+  background-color: aqua;
+  box-sizing: border-box;
+  float: right;
+  margin-top: 12px;
+  text-align: center;
+}
+
+footer {
+  float:left;
+  margin-top: 15px;
+  clear:both;
+  padding: 22px;
+  color: #fff;
+  background: darkslategray;
+  opacity: 0.83;
+  width: 100%;
+}
